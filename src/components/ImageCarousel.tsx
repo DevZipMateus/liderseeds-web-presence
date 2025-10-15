@@ -71,11 +71,11 @@ const ImageCarousel = () => {
               <CarouselItem key={index}>
                 <Dialog>
                   <DialogTrigger asChild>
-                    <div className="cursor-pointer">
+                    <div className="cursor-pointer bg-muted/50 rounded-lg">
                       <img
                         src={image.src}
                         alt={image.alt}
-                        className="w-full h-[400px] md:h-[600px] object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+                        className="w-full h-[500px] md:h-[600px] object-contain rounded-lg shadow-lg hover:shadow-xl transition-shadow"
                       />
                     </div>
                   </DialogTrigger>
