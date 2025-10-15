@@ -4,6 +4,7 @@ import ImageCarousel from "@/components/ImageCarousel";
 import About from "@/components/About";
 import Products from "@/components/Products";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Index = () => {
@@ -17,6 +18,7 @@ const Index = () => {
         <Products />
         <Contact />
       </main>
+      <Footer />
       <WhatsAppButton />
     </div>
   );
